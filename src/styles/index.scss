@@ -1,0 +1,34 @@
+@import "./reset.css";
+@import "./scroller-bar";
+
+.main-wrap {
+  width: 100%;
+  height: calc(100% - 100px);
+  padding: 0 25px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.size-wrap {
+  padding-top: 0;
+  box-sizing: border-box;
+  width: 465px;
+  min-width: 465px;
+  height: 95%;
+  transform: translateY(30px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.size-title {
+  background: url("../assets/images/box-header.png") no-repeat;
+  width: 411px;
+  height: 37px;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  font-family: YouSheBiaoTiHei-Regular, YouSheBiaoTiHei, sans-serif;
+  margin: 0 auto;
+}

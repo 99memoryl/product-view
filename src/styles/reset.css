@@ -1,0 +1,93 @@
+/**
+ *
+ * reset
+ */
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+ul,
+li,
+form,
+label,
+input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  vertical-align: baseline;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+
+/* custom */
+a {
+  text-decoration: none;
+  backface-visibility: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+/* ==for IE6/7 Maxthon2== */
+.clearfix::after {
+  clear: both;
+  content: ".";
+  display: block;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+#app {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.el-dialog {
+  margin-top: 20px !important;
+  background: #000 !important;
+  border: 2px solid #2b498f;
+  border-radius: 10px !important;
+  overflow: hidden;
+}
+
+.el-dialog__headerbtn {
+  font-size: 25px !important;
+}
+
+.el-dialog__title {
+  color: #fff !important;
+}
+
+.el-dialog__body {
+  padding: 10px 0 0 !important;
+}
